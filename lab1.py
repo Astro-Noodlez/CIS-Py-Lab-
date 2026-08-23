@@ -35,5 +35,5 @@ weight = 242
 height = 72.0
 print((type(age), type(weight), type(height)))
 bmi = (weight/height**2) * 703
-print(bmi)
+print(int(bmi))
 
