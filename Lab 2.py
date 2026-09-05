@@ -69,7 +69,7 @@ print(f"My height divided by 2 is: {height/2}")
 #The remainder of age divided by 3.
 print(f"What's left after I divide my age by 3? It's {age % 3}")
 #age raised to the power of 2.
-print(f"My age squared: {age**2}")  #alternatively; math.pow(age, 2)
+print(f"My age squared: {age**2}")  #alternatively; math.pow(age, 2) I love math
 
 
 # Part 4
