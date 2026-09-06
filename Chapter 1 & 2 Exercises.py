@@ -80,3 +80,20 @@ print(type(type))
 
         # 1.9.5 #
 
+# How many seconds are there in 42 minutes 42 seconds?
+print(f"There are {(42*60)+42} seconds in 42 minutes and 42 seconds.")
+# How many miles are there in 10 kilometers? Hint: there are 1.61 kilometers in a mile.
+print(f"There are {1.609*10} miles in 10 kilometers.")
+# If you run a 10 kilometer race in 42 minutes 42 seconds, what is your average pace in seconds per mile?
+print(f"My average pace in seconds per mile is {2562/16.09}")
+# What is your average pace in minutes and seconds per mile?
+print(f"My average pace in min and sec per mile is {(int((2562/16.09))//60)} minutes and {int((2562/16.09))-(int((2562/16.09))//60)*60} seconds.")
+# What is your average speed in miles per hour?
+print(f"My average in mph is {round((42.7/60),3)}")
+
+
+
+    # Chapter 2 Exercise #
+
+        # 2.11.2 #
+
