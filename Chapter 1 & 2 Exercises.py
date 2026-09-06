@@ -97,3 +97,52 @@ print(f"My average in mph is {round((42.7/60),3)}")
 
         # 2.11.2 #
 
+# 17 = n
+# SyntaxError: cannot assign to literal here.
+# Maybe you meant '==' instead of '='?
+
+x=y=1
+# ^^^ this statement is just fine,
+# but when I try to print, it has a problem
+# print(x=y=1)
+# SyntaxError: invalid syntax
+
+n = 3+4.
+print(n)
+# the period didn't error for this statement
+
+# name = "noodlez".
+# ^^^ the period messed me up here, though
+
+name = "noodlez";  # I keep forgetting to add quotes for these
+# it doesn't stop my code, but it does tell me a thing. look below.
+# (yellow triangle) Trailing semicolon in the statement : 117
+
+# import maath
+# ModuleNotFoundError: No module named 'maath'
+
+
+    # 2.11.3
+
+import math
+
+# Part 1 #
+
+radius = 5  # radius units in centimeters
+volume = (4/3)*math.pi * radius**3  # volume in cubic centimeters
+print(volume)
+
+# Part 2 #
+
+x = 42
+print(math.cos(x)**2 + math.sin(x)**2)
+
+# Part 3 #
+
+print(f"e squared via ** = {math.e**2}")
+print(f"e squared via math.pow = {math.pow(math.e, 2)}")
+print(f"e squared via math.exp = {math.exp(2)}")
+# The difference here is that the math.exp went to 2 less digits than the other 2
+print(f"e to power of e = {math.exp(math.e)}")
+print("")  # I assume I will learn how to seperate these lines without using an "empty" print function
+print("Thank you very much for your time. Your Best Friend Noodlez")
