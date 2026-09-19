@@ -117,19 +117,7 @@ def draw_jacko(t, x,y,radius):
     draw_eye(t, x+(1/3)*radius, eye_height, eye_size)  # Right eye
     draw_mouth(t, x-(1/3)*radius, mouth_height, radius)  # Mouth
 
-# Example usage
-  # Draw 20 stars
 
-# Example usage
-
-
-# Example usage
-# Hexagon
-
-# Example usage
-
-
-# Example usage
 
 
 # Create a turtle object
