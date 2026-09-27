@@ -61,7 +61,7 @@ print("   I also rounded everything to the 4th decimal place")
 #The sum of age and 5.
 print(f"My age in addition to 5 is: {age + 5}")   #I've worded the sentence in this way just to be different
 #The difference between height and 4.
-print(f"Four away from my height is: {height -4}")   #This line, too, is for ^^^^^ reason
+print(f"Four away from my height is: {height - 4}")   #This line, too, is for ^^^^^ reason
 #The product of age and height.
 print(f"My age multiplied by my height is: {age * height}")   #Is it a "thing" to be self-conscious about coding?
 #The quotient of height and 2.
