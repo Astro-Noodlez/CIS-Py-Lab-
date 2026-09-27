@@ -41,12 +41,10 @@ import turtle
 
 
 
-def square(length):
-    for i in range(4):
-        forward(length)
-        left(90)
+# def square(length):
+#     for i in range(4):
+#         forward(length)
+#         left(90)
 
-square(50)
-
-
+# square(50)
 
