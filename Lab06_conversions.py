@@ -69,7 +69,7 @@ ip_to_binary('211.174.1.2')
 
 
 # def print_right(text, text2, text3, text4):
-    #     print(text, sep='\n')  # I couldn't really figure it out  # so i made this specifically for this one phrase
+    #     print(text, sep='\n')  # I couldn't really figure it out  # so I made this specifically for this one phrase
     #     print(text2, sep='\n')  # I looked at yours after...it's amazing lol
     #     print(end="0" * 7)
     #     print(text3, sep="\n")
