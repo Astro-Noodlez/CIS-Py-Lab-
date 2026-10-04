@@ -48,3 +48,29 @@ import turtle
 
 # square(50)
 
+# def collatz(x):
+#     if x % 2 == 0:
+#         return x // 2
+#     else:
+#         return x * 3 + 1
+
+# print(collatz(3))
+#
+# a = 25 // 10
+# b = 25 % 10
+# print(a, b)
+#
+# x = 5
+# print(x > 5)
+# print(x <= 5)
+
+# def is_close(x, y):
+#     return abs(x - y) < 0.2
+# print(is_close(1.5, 1.6))
+
+# def hello(s:str, n:int):
+#     if n!=0:
+#         print(s, n-1) or print('goodbye')
+#     hello(s,n)
+#
+# hello('hello', 5)
