@@ -68,14 +68,14 @@ import turtle
 #     return abs(x - y) < 0.2
 # print(is_close(1.5, 1.6))
 
-def hello(n):
+def astronomy(n):
     if n > 0:
-        print('hello')
-        hello(n-1)
+        print('stars')
+        astronomy(n-1)
     else:
-        print('goodbye')
+        print('moons')
 
-hello(5)
+astronomy(5)
 
 
 def countdown(n):
