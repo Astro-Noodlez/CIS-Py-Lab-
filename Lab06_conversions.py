@@ -61,10 +61,10 @@ def ip_to_binary(ip: str):
             + '.'
             + dtb(int(part[3])).zfill(8)
         )
-        print(result)
+        return result
 
-ip_to_binary('192.168.0.1')
-ip_to_binary('211.174.1.2')
+print(ip_to_binary('192.168.0.1'))
+print(ip_to_binary('211.174.1.2'))
 
 
 """saving this for later study"""
