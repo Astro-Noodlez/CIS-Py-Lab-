@@ -68,9 +68,21 @@ import turtle
 #     return abs(x - y) < 0.2
 # print(is_close(1.5, 1.6))
 
-# def hello(s:str, n:int):
-#     if n!=0:
-#         print(s, n-1) or print('goodbye')
-#     hello(s,n)
-#
-# hello('hello', 5)
+def hello(n):
+    if n > 0:
+        print('hello')
+        hello(n-1)
+    else:
+        print('goodbye')
+
+hello(5)
+
+
+def countdown(n):
+    if n <= 0:
+        print('Blastoff!')
+    else:
+        print(n)
+        countdown(n-1)
+
+countdown(5)
