@@ -1,4 +1,21 @@
-from Lab06_ip_part1 import is_valid_ip
+
+
+def is_valid_part(part):
+    try:
+        i_part = int(part)
+        if part[0] == '0' and len(part) > 1: return False
+        return 0 <= i_part < 256
+    except ValueError as ve:
+        return False
+
+def is_valid_ip(ip:str):
+    parts = ip.split('.')
+    if len(parts) != 4:
+        return False
+    for part in parts:
+        if not is_valid_part(part): return False
+    return True
+
 
 """PART 2 - RECURSION AND NUMBER CONVERSION"""
 
