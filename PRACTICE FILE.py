@@ -1,5 +1,5 @@
-import turtle
-
+# import turtle
+# from _pyrepl import readline
 
 """PUT YOUR FUNCTIONS HERE"""
 
@@ -68,21 +68,42 @@ import turtle
 #     return abs(x - y) < 0.2
 # print(is_close(1.5, 1.6))
 
-def astronomy(n):
-    if n > 0:
-        print('stars')
-        astronomy(n-1)
-    else:
-        print('moons')
+# def astronomy(n):
+#     if n > 0:
+#         print('stars')
+#         astronomy(n-1)
+#     else:
+#         print('moons')
+#
+# astronomy(5)
 
-astronomy(5)
+
+# def countdown(n):
+#     if n <= 0:
+#         print('Blastoff!')
+#     else:
+#         print(n)
+#         countdown(n-1)
+#
+# countdown(5)
 
 
-def countdown(n):
-    if n <= 0:
-        print('Blastoff!')
-    else:
-        print(n)
-        countdown(n-1)
 
-countdown(5)
+# def has_a(word):
+#     for letter in word.lower():
+#         if letter == 'a':
+#             return True
+#         else:
+#             return False
+#         return False
+#
+# print(has_a("darin"))
+# print("    frog    ")
+
+def check(word, letters):
+    for letter in word.lower():
+        if letter in letters.lower():
+            return False
+    return True
+
+print(check("frog", 'f'))
