@@ -9,4 +9,25 @@ def read_file_words(filename):
 
 words = read_file_words('words.txt')
 
-print(words)
+
+# print(words)
+
+def list_sort(list):
+    n = len(list)
+    for i in range(n):
+        for j in range(n-1):
+            if list[j] > list[j+1]:
+                list[j], list[j+1] = list[j+1], list[j]
+    return list
+
+sorts = list_sort(words)
+# print(list_sort(words))
+
+def sorted(file, list):
+    with open(file, 'w') as file:
+        for word in list:
+            file.write(word + '\n')
+
+filed = sorted('sorted list', sorts)
+
+print(filed)
