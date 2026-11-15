@@ -100,10 +100,77 @@
 # print(has_a("darin"))
 # print("    frog    ")
 
-def check(word, letters):
-    for letter in word.lower():
-        if letter in letters.lower():
-            return False
-    return True
+# def check(word, letters):
+#     for letter in word.lower():
+#         if letter in letters.lower():
+#             return False
+#     return True
 
-print(check("frog", 'f'))
+# print(check("frog", 'f'))
+
+
+# print('Orange' < 'apple')
+
+s = 'PANTS'
+
+
+# t = [1, 2, 3]
+# print(t)
+# t.pop(1)
+# print(t)
+# t.append(2)
+# print(t)
+# t.remove(3)
+# print(t)
+
+
+# a = [1, 2, 3]
+# b = a
+# a.remove(2)
+#
+# print(b)
+
+# a = [1, 2, 3]
+# b = [1, 2, 3]
+
+
+# print(a, b)
+# print(a == b)
+# print(a is b)
+# n = ['banana']
+# print(n[-1])
+# print('banana'[-1])
+
+
+# fruit = 'banana'
+# print(fruit[3:3])
+
+
+
+
+# print(('a', 3) < ('b', 1))
+
+
+
+# def read_file_words(filename):
+#     word_list = []
+#     with open(filename) as file:
+#         for line in file:
+#             word_list.append(line.strip())
+#     return word_list
+
+# words = read_file_words('words.txt')
+
+# print(words)
+
+
+#!/usr/bin/env python3
+
+print(' myString '.join(['this', 'is', 'too']))
+
+
+
+
+
+
+
